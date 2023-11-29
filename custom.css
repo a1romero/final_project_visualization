@@ -1,9 +1,14 @@
 /* Global CSS variables */
 :root {
-    --spacing-company: 40;
+    --spacing-company: 3rem;
     --font-weight: 400;
     --border-radius: 0;
+    
   }
+
+  /*tableau glow effect:  -moz-box-shadow: 0 0 5px #fff;
+                    -webkit-box-shadow: 0 0 10px #fff;
+                    box-shadow: 0 0 10px #fff;' */
   
   /* Typography */
   h2,
@@ -20,6 +25,13 @@
   .hero {
     background-color: #f3f5f7;
     background-image: url("imageedit_7_3976793805.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .hero2 {
+    background-color: rgb(12, 45, 28);
+    background-image: none;
     background-position: center;
     background-size: cover;
   }
@@ -48,18 +60,14 @@
       column-gap: var(--spacing-company);
       grid-template-columns: auto 30%;
     }
+
+    main .grid-even {
+      column-gap: var(--spacing-company);
+      grid-template-columns: auto 30%;
+    }
   }
   
   form.grid {
     grid-row-gap: var(--spacing-company);
   }
   
-  /* Aside nav */
-  aside img {
-    margin-bottom: 0.25rem;
-  }
-  
-  aside p {
-    margin-bottom: var(--spacing-company);
-    line-height: 1.25;
-  }
