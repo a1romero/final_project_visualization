@@ -73,7 +73,7 @@
 
   /* Dotted border */
 hr.dotted {
-  border-top: 10px dotted rgb(12, 45, 28);
+  border-top: 6px dotted rgb(12, 45, 28);
 }
 
 
