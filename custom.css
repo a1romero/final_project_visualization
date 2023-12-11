@@ -75,3 +75,9 @@
 hr.dotted {
   border-top: 10px dotted rgb(12, 45, 28);
 }
+
+
+/* formatting bullet points */
+.customIndent {
+  margin-left: -40px;
+}
