@@ -79,5 +79,5 @@ hr.dotted {
 
 /* formatting bullet points */
 .customIndent {
-  margin-left: -40px;
+  margin-left: 40px;
 }
