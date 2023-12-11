@@ -70,4 +70,8 @@
   form.grid {
     grid-row-gap: var(--spacing-company);
   }
-  
+
+  /* Dotted border */
+hr.dotted {
+  border-top: 3px dotted rgb(12, 45, 28);
+}
